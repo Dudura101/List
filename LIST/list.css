@@ -1,0 +1,35 @@
+
+body {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
+
+li {
+    list-style-type: none;
+}
+
+.shape {
+    border-radius: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 1px 5px 0;
+    padding: 8px;
+    text-align: center;
+    transform: scale(0.99);
+    width: 180px;
+}
+
